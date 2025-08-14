@@ -1,2 +1,4 @@
 # Gender-detection-using-MatLab
-On the base of pitch of the human we are classifying the audio signal as male or female.
+The method described uses the pitch of a human voice to classify gender into three categories: Male, Female, or Unknown.
+The classification criteria are based on pitch frequency ranges. A voice pitch between 165 Hz and 255 Hz is categorized as Female, while a pitch below 165 Hz is classified as Male. Any pitch frequency above 255 Hz falls into the Unknown category. This approach relies on the fact that typical male and female voices have distinct pitch ranges due to physiological differences in vocal cords.
+From the layout, it appears the developer is documenting the logic for their MATLAB implementation. The system likely uses MATLAB’s audio processing capabilities to extract the pitch from recorded voice samples, analyze the frequency, and determine the speaker’s gender accordingly. This technique can be applied in various fields such as voice-controlled systems, call center analytics, and speech-based biometric applications.
